@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Futura;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color:  gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centre{
+    position: absolute;
+    height: 80%;
+    width: 60%;
+    
+}
+.imagecontainer{
+    overflow: hidden;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+}
+img{
+    height: 100%;
+}
+.text{
+    color: white;
+    position: absolute; 
+    width: 500px;
+    bottom: 15%;
+    left: -10%;
+    height: 130px;
+    overflow: hidden;
+    z-index: 99;
+   
+    
+}
+.text h1{
+    top: 200px;
+    position: absolute;
+    font-size: 6vw;
+    
+}
